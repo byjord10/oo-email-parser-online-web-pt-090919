@@ -9,6 +9,6 @@ def initiliaze(email)
   @email = email
 end
 
-def parse 
+def parse
   email.split(/, | /).uniq
 end
